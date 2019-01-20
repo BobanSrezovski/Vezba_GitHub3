@@ -1,0 +1,68 @@
+body {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar-sm {
+	background-color: #009590;
+	padding-top: 5px;
+}
+
+.navbar-sm span{
+	color: white;
+	margin-left: 15px;
+}
+
+.navbar-sm a {
+	color: white;
+	padding: 5px 10px;
+}
+
+.navbar-sm a:hover {
+	text-decoration: none;
+	color: #01D7CF;
+}
+
+.navbar-md {
+	background-color: #01D7CF;
+}
+
+.navbar-md a {
+	color: white;
+}
+
+.navbar-md ul li a:hover,
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+	background-color: #009590;
+}
+
+.navbar-md .navbar-brand {
+	font-family: 'Coiny', cursive;
+	font-size: 2em;
+}
+
+.title h1 {
+	font-family: 'Coiny', cursive;
+	font-size: 7em;
+	color: white;
+	margin-top: 35vh;
+}
+
+.title p {
+	color: white;
+	font-size: 2em;
+}
+.bg-banner {
+	background-image: url(banner.jpeg);
+	height: 89.7vh;
+	background-size: cover;
+	position: relative;
+}
+
+.opticity  {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(0, 149, 144, 0.7);
+}
