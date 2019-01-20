@@ -45,10 +45,10 @@
 }
 .div-modal2{
     display: inline-block;
-   padding-top: 30px;
+   padding-top: 10px;
    padding-bottom: 50px;
     height: 100%;
-    background-color: grey;
+    background-color: rgb(221, 210, 210);
     
 }
 .div-modal-content{
@@ -60,13 +60,17 @@
     margin-top: 2%;
 }
 .div-small > div{
-    border: 1px solid gray;
+    border: 1px solid grey;
 }
 .div-small img{
     height: 110px;
-    margin-left: 20%;
+    margin-left: 10%;
 }
 .div-modal1 hr{
     width: 90%;
     margin: 0 auto;
+}
+.div-awesome i{
+font-size: 30px;
+color: grey;
 }
