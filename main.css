@@ -1,0 +1,72 @@
+.pic1{
+    background-image: url("product_01.png");
+}
+.pic2{
+    background-image: url("product_02.png");
+}
+.pic3{
+    background-image: url("product_03.png");
+}
+.pic{
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    z-index: 1;
+    position: relative;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.div1{
+    top: 30%;
+    left: 30%;
+    position: absolute;
+    z-index: 2;
+    opacity: 0;
+}
+.div1 button{
+    border-radius: 20px;
+}
+.x:hover > .div1{
+  display: block;
+  opacity: 1;
+}
+.x:hover > .pic{
+    opacity: 0.1;
+}
+.div-modal1{
+   padding-top: 30px;
+   padding-bottom: 50px;
+    height: 100%;
+    display: inline-block;
+    
+}
+.div-modal1 > img{
+    margin-left: 25%;
+}
+.div-modal2{
+    display: inline-block;
+   padding-top: 30px;
+   padding-bottom: 50px;
+    height: 100%;
+    background-color: grey;
+    
+}
+.div-modal-content{
+   width: 150%;
+   height: 85vh;
+}
+.div-modal-dialog{
+    margin-left: 16%;
+    margin-top: 2%;
+}
+.div-small > div{
+    border: 1px solid gray;
+}
+.div-small img{
+    height: 110px;
+    margin-left: 20%;
+}
+.div-modal1 hr{
+    width: 90%;
+    margin: 0 auto;
+}
